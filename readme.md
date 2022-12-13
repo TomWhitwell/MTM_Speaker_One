@@ -1,6 +1,4 @@
-
-<img width="1116" alt="image" src="https://user-images.githubusercontent.com/1890544/207436869-e38c5c1e-f723-476e-b7c0-687e92e4b791.png">
-<img width="435" alt="Handmade plywood loudspeakers" src="https://user-images.githubusercontent.com/1890544/207169378-c3d2ac3e-bc79-4dec-8621-79752c9867cd.png">
+<img width="372" alt="Handmade plywood loudspeakers" src="https://user-images.githubusercontent.com/1890544/207437464-b0a5eaff-3a6f-481d-b2ee-495218e36388.png">
 <img width="372" alt="Handmade plywood loudspeakers" src="https://user-images.githubusercontent.com/1890544/207169182-584d568e-8f75-43d0-a28e-a19c073122ff.png">
 
 # Speaker One 
@@ -92,7 +90,8 @@
 
 ### Lessons 
 * As soon as I'd finished them, I wanted to make some more. 
-* I'd like to try some smaller ones, I'd like to try some bigger ones, but I don't have the space.  
+* I'd like to try some smaller ones, I'd like to try some bigger ones, but I don't have the space. 
+* Remember to buy nice black M4 bolts, swapping these over was a chore. 
 
 <img width="1123" alt="image" src="https://user-images.githubusercontent.com/1890544/207436522-a910fed5-3e6d-4353-bbfa-1ef308203099.png">
 <img width="604" alt="image" src="https://user-images.githubusercontent.com/1890544/207436589-aeee2071-5ba8-4bc8-81c1-ef526e1a5d97.png">
