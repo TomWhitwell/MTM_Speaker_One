@@ -8,6 +8,7 @@ This a note about building a coffee table book sized speaker based on the [SB Ac
 
 ### My goals with this project:  
 * I'd never made a speaker before, and wanted to try. 
+* I'm no kind of audiophile, and don't want to go too far down that rabbit hole. 
 * I was super inspired by the [Ojas Artbook](https://ojas.nyc/products/ojas-bookshelf-speaker-kit-v1-0) speaker kit, but they were out of stock, in the US and a little to big and expensive for me. 
 * I don't really have the space or the confidence to do any serious woodwork (cutting and routing) so wanted to try ordering CNC cut parts and glueing them together. 
 * I wanted something that would sound and look better than the Q Acoustics 3010 speakers I bought from Richer Sounds a few years ago. I wanted reasonably deep bass, decent volume from a little digital amp and a sound that wasn't boxy. 
@@ -51,15 +52,33 @@ This a note about building a coffee table book sized speaker based on the [SB Ac
 * The box was designed in Illustrator, output as a DXF file, and sent to [Hub Workshop](https://www.hubworkshop.com/) which is just up the road from me. They cleaned up the files and allowed for the tolerances to a certain extent (see below) 
 * The design was based on tracing the Ojas dimensions, doing a lot of chaotic calculations in a spreadsheet (the [sheet is here](https://docs.google.com/spreadsheets/d/1okxg8fRGXJtWJJgIjL-u5ItgHnRVvPVkMiJNMjSgigQ/edit?usp=sharing), don't rely on anything), testing different dimensions in this [Bass Reflex Box Design](http://www.mh-audio.nl/Calculators/BRH.html) tool - the variables come from the speaker specifications. 
 * After a bit of pondering I decided on an 18mm box that was 365 x 305 x 295mm. the baffle (front) is rebated so the sides aren't visible. There's a brace at the back to make it stronger and for the back to screw into. That leaves roughly 16L of internal space. 
-* The vent in the front is 78x19mm with 6mm radius corners, giving it a surface area of 14.5cm2, which (I think) is the same as the [HP50 reflex tube](https://www.monacor.com/products/components/speaker-technology/diy-/br-50hp/) specified by [Lautsprechershop](https://www.lautsprechershop.de/chassis/sbacoustics_en.htm#sb-16pfcr25-4-coax) for this driver. 6 layers of 18mm wood gives 10.8mm of reflex tube. (I'm sure a speaker design expert would do all this differently.
+* I did everything with super simple butt joints. It seems to be fine, I don't see the thing falling apart. Ojas uses [Lamello Cabineo](https://www.lamello.com/product/bohrenfraesen-verbinder/cabineo-8-cabineo-12/) connectors which look really clever - they can be CNC milled without drilling the edges of the sheet, and mean you don't need all the clamping, which would be great. 
+* The vent in the front is 78x19mm with 6mm radius corners, giving it a surface area of 14.5cm2, which (I think) is the same as the [HP50 reflex tube](https://www.monacor.com/products/components/speaker-technology/diy-/br-50hp/) specified by [Lautsprechershop](https://www.lautsprechershop.de/chassis/sbacoustics_en.htm#sb-16pfcr25-4-coax) for this driver. 6 layers of 18mm wood gives 108mm of reflex tube. (I'm sure a speaker design expert would do all this differently.
 * In illustrator, I created a separate layer for each tool and depth: One layer for 2mm drills that are 9mm deep. Another for a 6mm endmill bit that goes down 3mm. I just marked the areas to be milled or cut, with lots of annotations in a separate layer to explain what I was up to. 
+* I created one of each part, with an annotation to explain how many copies were needed. The CNC place lays everything out on a sheet using *algorithms*. 
 * Illustrator was fine, but I'm sure a proper tool like Sketchup or better still a parametric design tool like FreeCad would be much better. 
+* I thought you could only cut on one side, but I was able to specify a reverse cut - space for the speaker to sit in the front baffle.  
 
-### An important note about tolerances 
+### What I learned about tolerances 
 * The thing about 18mm plywood is that it's not 18mm thick. It might be 17.7mm or 18.3mm. 
 * If you design a panel with an 18mm wide slot in it, even if it's perfectly cut, one board will fit right in, another won't. 
-* The CNC place allows for this - they told me: "make all drawings to the exact dimensions of the material thickness (e.g. 18mm).  We will then measure the material thickness (they vary per batch) and add tolerance to your design where necessary (i.e. joints).  We usually add a 0.2mm offset. " 
+* The CNC place allows for this - they told me: "make all drawings to the exact dimensions of the material thickness (e.g. 18mm).  We will then measure the material thickness (they vary per batch) and add tolerance to your design where necessary (i.e. joints).  We usually add a 0.2mm offset." 
 * This worked perfectly in some places - like the rebate cuts around the front baffle. In others, it didn't - the slots to hold the brace were exactly 18mm wide, so I had to plane down the wood to fit in. The back panel was far too snug to fit so had to be crudely planed down. Fortunately, it's invisible once the speakers are in place. I'm sure this was human error on my side, not being clear enough about specifications. 
 * **This is why you shouldn't take my AI file and send it to a CNC place to get your wood cut** 
-* The next time I design a box I'll be much more explicit - referring to nominal sizes and making it clear where 
+* The next time I design a box I'll be much more explicit - referring to nominal sizes and making it clear where sizes need to change. 
+
+### Assembly 
+* Assembly was pretty straightforward apart from the annoying size-fixing. 
+* First of all I attached one layer of the vent to the front baffle. The whole vent assembly was a bit fiddly — next time I'll use dowels or something to make it easier to stack up the little slices. 
+* I started by clamping the base to one of the sides - clamping to ensure a perfect(ish) right angle and smooth corners. 
+* After a few hours I unclamped and did the other side in the same way. 
+* Next I did the top and the brace
+* Then finally the front / baffle. 
+* It was very satisfying, all worked well. I sanded everything down with a rotary sander, installed the driver and hardware, wired it all up, put on a couple of layers of wax and some stick-on silicone feed, then did it all again for the second box. 
+
+### Tuning 
+* I still hadn't assembled the full vent / reflex tube because I wanted to check if it made a difference. 
+* I left one box as-is (with just one layer of tube - i.e a 32mm vent. In the other box, I taped together a 108mm tube with fiberglass tape, and stuffed the box with polyester foam. 
+* Testing the two speakers side-by-side with a switch in the speaker cable, there was definitely a difference. The stuffed, full-tube box sounded deeper and — I think — smoother. I could measure few dB increase when playing test tones in the 40-50hz range. 
+* So I glued in the full length tubes and stuffed both boxes.  
  
