@@ -1,10 +1,11 @@
-## Speaker One 
 
+<img width="1116" alt="image" src="https://user-images.githubusercontent.com/1890544/207436869-e38c5c1e-f723-476e-b7c0-687e92e4b791.png">
 <img width="435" alt="Handmade plywood loudspeakers" src="https://user-images.githubusercontent.com/1890544/207169378-c3d2ac3e-bc79-4dec-8621-79752c9867cd.png">
 <img width="372" alt="Handmade plywood loudspeakers" src="https://user-images.githubusercontent.com/1890544/207169182-584d568e-8f75-43d0-a28e-a19c073122ff.png">
 
+# Speaker One 
 
-This a note about building a coffee table book sized speaker based on the [SB Acoustics SB16PFCR25-4-COAX](https://sbacoustics.com/product/6-sb16pfcr25-4-coax/), a 40W 6" Coaxial driver, inspired by (copied from) Ojas Artbook speakers. It is not a ready-to-build kit. 
+#### This a note about building a coffee table book sized speaker based on the [SB Acoustics SB16PFCR25-4-COAX](https://sbacoustics.com/product/6-sb16pfcr25-4-coax/), a 40W 6" Coaxial driver, inspired by (copied from) Ojas Artbook speakers. It is not a ready-to-build kit. 
 
 ### My goals with this project:  
 * I'd never made a speaker before, and wanted to try. 
@@ -74,11 +75,29 @@ This a note about building a coffee table book sized speaker based on the [SB Ac
 * After a few hours I unclamped and did the other side in the same way. 
 * Next I did the top and the brace
 * Then finally the front / baffle. 
-* It was very satisfying, all worked well. I sanded everything down with a rotary sander, installed the driver and hardware, wired it all up, put on a couple of layers of wax and some stick-on silicone feed, then did it all again for the second box. 
+* It was very satisfying, all worked well. I sanded everything down with a rotary sander, installed the driver and hardware, wired it all up, put on a couple of layers of wax and some stick-on silicone feet, then did it all again for the second box. 
+
+<img width="657" alt="image" src="https://user-images.githubusercontent.com/1890544/207436627-bb5368d7-d7b1-4b26-b807-70aa5a774ff9.png">
+<img width="628" alt="image" src="https://user-images.githubusercontent.com/1890544/207436660-86d71819-f68e-46c2-999b-ce5e6a7f27ad.png">
+
 
 ### Tuning 
 * I still hadn't assembled the full vent / reflex tube because I wanted to check if it made a difference. 
 * I left one box as-is (with just one layer of tube - i.e a 32mm vent. In the other box, I taped together a 108mm tube with fiberglass tape, and stuffed the box with polyester foam. 
 * Testing the two speakers side-by-side with a switch in the speaker cable, there was definitely a difference. The stuffed, full-tube box sounded deeper and — I think — smoother. I could measure few dB increase when playing test tones in the 40-50hz range. 
 * So I glued in the full length tubes and stuffed both boxes.  
+
+### Results 
+* Installed, I'm really happy with the speakers. They sound good with everything I've played through them. 
+
+### Lessons 
+* As soon as I'd finished them, I wanted to make some more. 
+* I'd like to try some smaller ones, I'd like to try some bigger ones, but I don't have the space.  
+
+<img width="1123" alt="image" src="https://user-images.githubusercontent.com/1890544/207436522-a910fed5-3e6d-4353-bbfa-1ef308203099.png">
+<img width="604" alt="image" src="https://user-images.githubusercontent.com/1890544/207436589-aeee2071-5ba8-4bc8-81c1-ef526e1a5d97.png">
+<img width="709" alt="image" src="https://user-images.githubusercontent.com/1890544/207436733-0c5e288c-876d-402f-bd70-0ed7c9997ff8.png">
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/1890544/207436973-ffa14b85-0166-4976-bbdc-4cf995f113a4.png">
+
+
  
